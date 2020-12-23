@@ -1,0 +1,6 @@
+framework module Pods_Radio_Multiselect {
+  umbrella header "Pods-Radio_Multiselect-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B31FF716A5941F59E13A28C /* Pods_Radio_Multiselect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10179D2DF0B5F38A85031FD7 /* Pods_Radio_Multiselect.framework */; };
+		AB639A941FDA42D60027C4E4 /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB639A931FDA42D60027C4E4 /* CommonTool.swift */; };
+		AB717E4C1FC7A68000E43721 /* LFCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB717E4B1FC7A68000E43721 /* LFCollectionVC.swift */; };
+		AB717E4E1FC7A69E00E43721 /* LFCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB717E4D1FC7A69E00E43721 /* LFCollectionView.swift */; };
+		AB717E501FC7A6AE00E43721 /* CollectionSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB717E4F1FC7A6AE00E43721 /* CollectionSectionModel.swift */; };
+		AB717E521FC7A8D100E43721 /* LFCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB717E511FC7A8D100E43721 /* LFCollectionViewCell.swift */; };
+		ABAA485C1FC6AC3C001491E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA485B1FC6AC3C001491E2 /* AppDelegate.swift */; };
+		ABAA485E1FC6AC3C001491E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA485D1FC6AC3C001491E2 /* ViewController.swift */; };
+		ABAA48611FC6AC3C001491E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAA485F1FC6AC3C001491E2 /* Main.storyboard */; };
+		ABAA48631FC6AC3C001491E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABAA48621FC6AC3C001491E2 /* Assets.xcassets */; };
+		ABAA48661FC6AC3C001491E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAA48641FC6AC3C001491E2 /* LaunchScreen.storyboard */; };
+		ABAA486E1FC6AE95001491E2 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA486D1FC6AE95001491E2 /* BaseTableView.swift */; };
+		ABAA48701FC6B0FD001491E2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA486F1FC6B0FD001491E2 /* UIView+Extension.swift */; };
+		ABAA48741FC6B601001491E2 /* LFTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA48731FC6B601001491E2 /* LFTableVC.swift */; };
+		ABAA48761FC6B623001491E2 /* LFTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA48751FC6B623001491E2 /* LFTableView.swift */; };
+		ABAA48781FC6B6BC001491E2 /* LFTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA48771FC6B6BC001491E2 /* LFTableViewCell.swift */; };
+		ABAA487A1FC6C987001491E2 /* LFTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA48791FC6C987001491E2 /* LFTableModel.swift */; };
+		ABDF10761FD9473400647644 /* TextFieldSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDF10751FD9473400647644 /* TextFieldSearchVC.swift */; };
+		ABDF10781FD948DF00647644 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDF10771FD948DF00647644 /* Global.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10179D2DF0B5F38A85031FD7 /* Pods_Radio_Multiselect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radio_Multiselect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CA3D75C955A54C216CB7C6 /* Pods-Radio_Multiselect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio_Multiselect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Radio_Multiselect/Pods-Radio_Multiselect.debug.xcconfig"; sourceTree = "<group>"; };
+		AB639A931FDA42D60027C4E4 /* CommonTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTool.swift; sourceTree = "<group>"; };
+		AB717E4B1FC7A68000E43721 /* LFCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFCollectionVC.swift; sourceTree = "<group>"; };
+		AB717E4D1FC7A69E00E43721 /* LFCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFCollectionView.swift; sourceTree = "<group>"; };
+		AB717E4F1FC7A6AE00E43721 /* CollectionSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionSectionModel.swift; sourceTree = "<group>"; };
+		AB717E511FC7A8D100E43721 /* LFCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABAA48581FC6AC3C001491E2 /* Radio_Multiselect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radio_Multiselect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAA485B1FC6AC3C001491E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABAA485D1FC6AC3C001491E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABAA48601FC6AC3C001491E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABAA48621FC6AC3C001491E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABAA48651FC6AC3C001491E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABAA48671FC6AC3C001491E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABAA486D1FC6AE95001491E2 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		ABAA486F1FC6B0FD001491E2 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		ABAA48731FC6B601001491E2 /* LFTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFTableVC.swift; sourceTree = "<group>"; };
+		ABAA48751FC6B623001491E2 /* LFTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFTableView.swift; sourceTree = "<group>"; };
+		ABAA48771FC6B6BC001491E2 /* LFTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFTableViewCell.swift; sourceTree = "<group>"; };
+		ABAA48791FC6C987001491E2 /* LFTableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFTableModel.swift; sourceTree = "<group>"; };
+		ABDF10751FD9473400647644 /* TextFieldSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSearchVC.swift; sourceTree = "<group>"; };
+		ABDF10771FD948DF00647644 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		F4CE7F819DB72CAED57083B2 /* Pods-Radio_Multiselect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radio_Multiselect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Radio_Multiselect/Pods-Radio_Multiselect.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABAA48551FC6AC3C001491E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B31FF716A5941F59E13A28C /* Pods_Radio_Multiselect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C7F39D52A90D2FB589510EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10179D2DF0B5F38A85031FD7 /* Pods_Radio_Multiselect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABAA484F1FC6AC3C001491E2 = {
+			isa = PBXGroup;
+			children = (
+				ABAA485A1FC6AC3C001491E2 /* Radio_Multiselect */,
+				ABAA48591FC6AC3C001491E2 /* Products */,
+				CF24ED54983E1B7F785B393E /* Pods */,
+				6C7F39D52A90D2FB589510EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABAA48591FC6AC3C001491E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABAA48581FC6AC3C001491E2 /* Radio_Multiselect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABAA485A1FC6AC3C001491E2 /* Radio_Multiselect */ = {
+			isa = PBXGroup;
+			children = (
+				ABDF10741FD946AD00647644 /* TextFiledSearch */,
+				ABAA48721FC6B5B2001491E2 /* CollectionView */,
+				ABAA48711FC6B598001491E2 /* TableView */,
+				ABAA485B1FC6AC3C001491E2 /* AppDelegate.swift */,
+				ABAA485D1FC6AC3C001491E2 /* ViewController.swift */,
+				ABAA486D1FC6AE95001491E2 /* BaseTableView.swift */,
+				ABAA486F1FC6B0FD001491E2 /* UIView+Extension.swift */,
+				ABAA485F1FC6AC3C001491E2 /* Main.storyboard */,
+				ABAA48621FC6AC3C001491E2 /* Assets.xcassets */,
+				ABAA48641FC6AC3C001491E2 /* LaunchScreen.storyboard */,
+				ABAA48671FC6AC3C001491E2 /* Info.plist */,
+				ABDF10771FD948DF00647644 /* Global.swift */,
+				AB639A931FDA42D60027C4E4 /* CommonTool.swift */,
+			);
+			path = Radio_Multiselect;
+			sourceTree = "<group>";
+		};
+		ABAA48711FC6B598001491E2 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				ABAA48731FC6B601001491E2 /* LFTableVC.swift */,
+				ABAA48751FC6B623001491E2 /* LFTableView.swift */,
+				ABAA48771FC6B6BC001491E2 /* LFTableViewCell.swift */,
+				ABAA48791FC6C987001491E2 /* LFTableModel.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		ABAA48721FC6B5B2001491E2 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AB717E4B1FC7A68000E43721 /* LFCollectionVC.swift */,
+				AB717E4D1FC7A69E00E43721 /* LFCollectionView.swift */,
+				AB717E511FC7A8D100E43721 /* LFCollectionViewCell.swift */,
+				AB717E4F1FC7A6AE00E43721 /* CollectionSectionModel.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		ABDF10741FD946AD00647644 /* TextFiledSearch */ = {
+			isa = PBXGroup;
+			children = (
+				ABDF10751FD9473400647644 /* TextFieldSearchVC.swift */,
+			);
+			name = TextFiledSearch;
+			sourceTree = "<group>";
+		};
+		CF24ED54983E1B7F785B393E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38CA3D75C955A54C216CB7C6 /* Pods-Radio_Multiselect.debug.xcconfig */,
+				F4CE7F819DB72CAED57083B2 /* Pods-Radio_Multiselect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABAA48571FC6AC3C001491E2 /* Radio_Multiselect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABAA486A1FC6AC3C001491E2 /* Build configuration list for PBXNativeTarget "Radio_Multiselect" */;
+			buildPhases = (
+				C2CF87E6DABDFD70B34C5A94 /* [CP] Check Pods Manifest.lock */,
+				ABAA48541FC6AC3C001491E2 /* Sources */,
+				ABAA48551FC6AC3C001491E2 /* Frameworks */,
+				ABAA48561FC6AC3C001491E2 /* Resources */,
+				C614DD107254C7A3D70B82EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radio_Multiselect;
+			productName = Radio_Multiselect;
+			productReference = ABAA48581FC6AC3C001491E2 /* Radio_Multiselect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABAA48501FC6AC3C001491E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LLBT;
+				TargetAttributes = {
+					ABAA48571FC6AC3C001491E2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Y83HMHZ2CE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABAA48531FC6AC3C001491E2 /* Build configuration list for PBXProject "Radio_Multiselect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = ABAA484F1FC6AC3C001491E2;
+			productRefGroup = ABAA48591FC6AC3C001491E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABAA48571FC6AC3C001491E2 /* Radio_Multiselect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABAA48561FC6AC3C001491E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAA48661FC6AC3C001491E2 /* LaunchScreen.storyboard in Resources */,
+				ABAA48631FC6AC3C001491E2 /* Assets.xcassets in Resources */,
+				ABAA48611FC6AC3C001491E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2CF87E6DABDFD70B34C5A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radio_Multiselect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C614DD107254C7A3D70B82EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radio_Multiselect/Pods-Radio_Multiselect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radio_Multiselect/Pods-Radio_Multiselect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABAA48541FC6AC3C001491E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABAA487A1FC6C987001491E2 /* LFTableModel.swift in Sources */,
+				ABAA485E1FC6AC3C001491E2 /* ViewController.swift in Sources */,
+				ABAA486E1FC6AE95001491E2 /* BaseTableView.swift in Sources */,
+				ABAA48701FC6B0FD001491E2 /* UIView+Extension.swift in Sources */,
+				ABAA48741FC6B601001491E2 /* LFTableVC.swift in Sources */,
+				AB717E4C1FC7A68000E43721 /* LFCollectionVC.swift in Sources */,
+				ABDF10781FD948DF00647644 /* Global.swift in Sources */,
+				AB717E521FC7A8D100E43721 /* LFCollectionViewCell.swift in Sources */,
+				ABAA485C1FC6AC3C001491E2 /* AppDelegate.swift in Sources */,
+				ABDF10761FD9473400647644 /* TextFieldSearchVC.swift in Sources */,
+				AB639A941FDA42D60027C4E4 /* CommonTool.swift in Sources */,
+				ABAA48781FC6B6BC001491E2 /* LFTableViewCell.swift in Sources */,
+				AB717E4E1FC7A69E00E43721 /* LFCollectionView.swift in Sources */,
+				ABAA48761FC6B623001491E2 /* LFTableView.swift in Sources */,
+				AB717E501FC7A6AE00E43721 /* CollectionSectionModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABAA485F1FC6AC3C001491E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAA48601FC6AC3C001491E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABAA48641FC6AC3C001491E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABAA48651FC6AC3C001491E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABAA48681FC6AC3C001491E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABAA48691FC6AC3C001491E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABAA486B1FC6AC3C001491E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38CA3D75C955A54C216CB7C6 /* Pods-Radio_Multiselect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y83HMHZ2CE;
+				INFOPLIST_FILE = Radio_Multiselect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llbt.Radio-Multiselect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABAA486C1FC6AC3C001491E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CE7F819DB72CAED57083B2 /* Pods-Radio_Multiselect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y83HMHZ2CE;
+				INFOPLIST_FILE = Radio_Multiselect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.llbt.Radio-Multiselect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABAA48531FC6AC3C001491E2 /* Build configuration list for PBXProject "Radio_Multiselect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAA48681FC6AC3C001491E2 /* Debug */,
+				ABAA48691FC6AC3C001491E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABAA486A1FC6AC3C001491E2 /* Build configuration list for PBXNativeTarget "Radio_Multiselect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAA486B1FC6AC3C001491E2 /* Debug */,
+				ABAA486C1FC6AC3C001491E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABAA48501FC6AC3C001491E2 /* Project object */;
+}

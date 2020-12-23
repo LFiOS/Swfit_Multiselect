@@ -1,0 +1,29 @@
+# source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'Radio_Multiselect' do
+use_frameworks!
+#pod 'EZSwiftExtensions', '~> 1.8'
+#pod 'SnapKit', '~> 3.1.2'
+pod 'SnapKit'
+
+#pod 'AFNetworking', '~> 3.1.0'
+#pod 'SwiftyJSON', '~> 3.1.0'
+#pod 'Kingfisher', '~> 3.13.1'
+#pod 'RxSwift', '~> 3.1.0'
+#pod 'ObjectMapper', '~> 2.2.9'
+#pod 'SVProgressHUD'
+#pod 'MJRefresh', '~> 3.1.12'
+#-----
+
+#  target 'Radio_MultiselectTests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+
+#  target 'Radio_MultiselectUITests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+
+end
